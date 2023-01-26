@@ -29,11 +29,6 @@ const questions = [
         message: 'How is your software used?'
     },
     {
-        type: 'input',
-        name: 'usage',
-        message: 'How is your software used?'
-    },
-    {
         type: 'list',
         name: 'license',
         message: "What kind of license does your project have?",
@@ -48,7 +43,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Where can people contribute to this project?'
+        message: 'How can people contribute to this project?'
     },
     {
         type: 'input',
